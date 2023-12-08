@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>BeanzArmy</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            overflow: hidden;
+            background-image: url(https://images4.alphacoders.com/106/106826.jpg);  /* https://tse1.mm.bing.net/th?id=OIP.1TOvFUCR9HM1ksLCDjNEZAHaE8&pid=Api&P=0&h=220 */
+        }
+
+        .Proxy {
+            text-align: center;
+            margin-top: 300px;
+            z-index: 999;
+        }
+
+        h1 {
+            color: #33809c;
+        }
+
+        p {
+            color: #33809c;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .Proxy label {
+            font-size: 45px;
+            color: #031014;
+        }
+
+        .Home {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            position: relative;
+}
+
+
+        .Proxy input {
+            border-radius: 20px;
+            width: 275px;
+            height: 45px;
+            font-size: 20px;
+        }
+
+        .Proxy :placeholder-shown {
+            font-size: 20px;
+        }
+
+        .goButton {
+            border-radius: 15px;
+            width: 50px;
+            height: 53px;
+            margin-left: 3px;
+            font-size: 25px;
+            background-color: #660066;
+            color: azure;
+        }
+
+        #proxyIframe {
+            border: none;
+            width: 100%;
+            height: 775px;
+            flex-grow: 1;
+            margin-top: 5px;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            background-color: rgba(11, 15, 85, 0.462);
+            color: white;
+            text-align: center;
+            z-index: 999; 
+        }
+
+        header button {
+            border-radius: 5px;
+            width: fit-content;
+            height: 26px;
+            margin: 2px;
+            font-size: 16px;
+            background-color: #660066;
+            margin-bottom: 5px;
+        }
+
+        .proxyMain {
+            display: block;
+        }
+
+        #topElement {
+            position: fixed;
+            top: 0;
+            left: 50%; /* Adjust left position as needed */
+            transform: translateX(-50%);
+            background-color: transparent;
+            padding: 10px;
+            z-index: 1000; /* Ensure it's above other content */
+            display: none;
+        }
+
+        #topElement button {
+            border-radius: 5px;
+            width: 60px;
+            height: 26px;
+            text-align: center;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+        }
+         
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(23, 14, 50, 0.851); /* Semi-transparent white background */
+            display: none; /* Initially hidden */
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Ensure it's above other elements */
+        }
+
+        .loading-message {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to your worst nightmare...</h1>
+        <button onclick="goHome()">Home</button>
+        <button onclick="goGames()">Games</button>
+        <button onclick="goYoutube()">Youtube</button>
+    </header>
+    <div id="topElement">
+        <!-- Scroll indicator button -->
+        <button onclick="scrollDown()">&#x25BD;</button>
+    </div>
+    <main class="Home">
+        <div class="Proxy">
+            <section class="proxyMain">
+                <label for="proxyInput">Proxy</label>
+                <br>
+                <input id="proxyInput" type="url" placeholder="start with https://">
+                <button class="goButton">Go</button>
+            </section>
+            <iframe id="proxyIframe" src="" frameborder="0"></iframe>
+        </div>
+    </main>
+    <div class="loading-overlay">
+        <div class="loading-message">Loading...</div>
+    </div>
+    <script>
+        function go() {
+            const url = document.getElementById("proxyInput").value;
+            const proxy = document.getElementById("proxyIframe");
+            const proxyMain = document.querySelector(".proxyMain");
+
+            // Change cursor to "wait" when loading
+            document.querySelector("body").style.cursor = "wait";
+
+            // Display loading overlay before content load
+            document.querySelector('.loading-overlay').style.display = 'flex';
+
+            // Simulate content load using setTimeout
+            setTimeout(function () {
+                proxy.src = url;
+                proxy.style.display = "block";
+                proxyMain.style.display = "none";
+                document.querySelector('.Proxy').style.marginTop = '10px';
+                document.querySelector('.Proxy').style.textAlign = 'left';
+                document.querySelector('header').style.display = "none";
+                document.querySelector("#topElement").style.display = "block";
+
+                // Hide loading overlay after content load
+                document.querySelector('.loading-overlay').style.display = 'none';
+
+                // Reset cursor after content load
+                document.querySelector("body").style.cursor = "default";
+            }, 2350); // Change the time according to your content load time
+        }
+
+        document.querySelector('.goButton').addEventListener('click', function() {
+            go(); // Call the go() function to load content
+        });
+
+
+        function goHome() {
+            const home = document.querySelector(".Home");
+            const proxyI = document.getElementById("proxyIframe");
+            const proxy = document.querySelector(".Proxy");
+            const proxyInput = document.getElementById("proxyInput");
+
+            home.style.display = "block";
+            proxyI.src = ""; 
+            proxy.style.display = "block";
+            document.querySelector('header').style.display = "block";
+        }
+
+
+        function goGames() {
+            
+        }
+
+        function goAbout() {
+
+        }
+
+        function scrollDown() {
+            document.querySelector("header").style.display = "block";
+            document.querySelector("#topElement").style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
